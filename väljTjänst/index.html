@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Behandlingar</title>
+    <script type="module" src="../nav.js"></script>
+    <script type="module" src="./main.js"></script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./tjanst.css">
+</head>
+
+<body>
+    <nav id="avbryt">
+        <a href="../index.html">⨂ Avbryt bokning</a>
+    </nav>
+
+    <header>
+        <h1>1. Välj tjänst</h1>
+    </header>
+
+      <p><i>(Endast en tjänst kan väljas)</i></p>
+
+    <main>
+        <section id="behandlingar">
+
+            <section id="Ellen">
+                <h2>Massagebehandlingar</h2>
+                <h4>Hos Ellen</h4>
+
+                <div id="helkropp">
+                    <img src="../img/helkropp.jpg" alt="Helkroppsmassage">
+                    <ul>
+                    <h3>Helkroppsmassage</h3>
+                    <h5>Hos Ellen</h5>
+                        <li>Fokus på rygg och axlar</li>
+                        <li>Avstressande och avkopplande</li>
+                    </ul>
+                    <div id="sextio">
+                    <input type="radio" id="bokaMassage">
+                    <label for="bokaMassage">Boka helkroppsmassage 60 minuter - 1099 kr</label>
+                    </div>
+                    <div id="fyrtio">
+                    <input type="radio" id="bokaMassage2">
+                    <label for="bokaMassage2">Boka helkroppsmassage 30 minuter - 699 kr</label>
+                </div>
+                </div>
+
+                <div id="nacke">
+                    <img src="../img/nacke.jpg" alt="nackmassage">
+                    
+                    <ul>
+                    <h3>Nackmassage</h3>
+                    <h5>Hos Ellen</h5>
+                        <li>Endast nacke</li>
+                        <li>Mjukgörande massage</li>
+                        <li>Individuell anpassning</li>
+                    </ul>
+                    <div>
+                    <input type="radio" id="bokaNacke">
+                    <label for="bokaNacke">Boka nackmassage 30 minuter - 499 kr</label>
+                    </div>
+                </div>
+
+                </div>
+            </section>
+
+            <section id="vera">
+                <h2>Ansiktsbehandlingar</h2>
+                <h4>Hos Vera</h4>
+
+                <div id="mask">
+                    <img src="../img/mask.jpg" alt="ansiktsmask">
+                    
+                    <ul>
+                        <h3>Klassisk ansiktsbehandling</h3>
+                    <h5>Hos Vera</h5>
+                        <li>Anpassad efter din hy</li>
+                        <li>Portömning</li>
+                        <li>Återfuktning</li>
+                        <li>Akne-behandling</li>
+                        <li>Uppfräschning</li>
+                    </ul>
+
+                    <div>
+                    <input type="radio" id="ansiktsbehandling">
+                    <label for="ansiktsbehandling">Boka klassisk ansiktsbehandling 45 minuter - 899 kr</label>
+                    </div>
+                </div>
+
+                <div id="skinbooster">
+                    <img src="../img/ansiktsmask.jpg" alt="skinbooster">
+                   
+                    <ul>
+                         <h3>Skinbooster</h3>
+                        <h5>Hos Vera</h5>
+                        <li>Snabb boost av återfuktning och rengöring</li>
+                        <li>Anpassad ansiktsmask</li>
+                        <li>Exfolierande rengöring</li>
+                        <li>Mjukgörande ansiktsprodukter</li>
+                    </ul>
+
+                    <div>
+                    <input type="radio" id="skinbooster">
+                    <label for="skinbooster">Boka skinbooster 30 minuter - 699 kr</label>
+                    </div>
+                </div>
+            </section>
+
+            <section id="sanna">
+                <h2>Fransar och bryn</h2>
+                <h4>Hos Sanna</h4>
+
+                <div id="lashlift">
+                    <div class="j">
+                    <div id="bild1">
+                        <img src="../img/före.jpg" alt="före">
+                        <p>Före lash- och browlift</p>
+                    </div>
+                    <div id="bild2">
+                        <img src="../img/efter.jpg" alt="efter">
+                        <p>Efter lash- och browlift</p>
+                    </div>
+                    </div>
+
+                    <ul>
+                        <h3>Lashlift och Browlift</h3>
+                        <h5>Hos Sanna</h5>
+                        <li>Böjda och färgade fransar</li>
+                        <li>Naturligt resultat</li>
+                        <li>Sätter ögonbrynen på plats</li>
+                        <li>Ger ett lyft</li>
+                        <li>Färgade och formade ögonbryn</li>
+                    </ul>
+
+                    <div id="lash">
+                    <input type="radio" id="lash">
+                    <label for="lash">Boka lashlift - 499 kr</label>
+                    </div>
+                    <div id="brow">
+                    <input type="radio" id="browlift">
+                    <label for="browlift">Boka browlift - 499 kr</label>
+                    </div>
+                
+                </div>
+            </section>
+        </section>
+
+        <a class="nästa" href="../kalender/14.html">Nästa &rarr;</a>
+    </main>
+
+    <footer>
+        <div id="copy">
+            <p>Copyright © 2026 Trillingarnas hälsa</p>
+        </div>
+        <div id="logo">
+            <img src="../img/logotyp.svg" alt="Logo">
+        </div>
+        <div id="kontakt">
+            <p>Telefonnummer: 070-123 45 67</p>
+            <p>Epost: info@trillingarnashalsa.se</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

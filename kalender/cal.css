@@ -1,0 +1,107 @@
+body {
+   width: 100%;
+   margin: 0;
+}
+.A {
+    background: radial-gradient(rgb(193, 245, 202), rgba(147, 176, 139, 0.965));
+    border-radius: 15px;
+    cursor: pointer;
+}
+.A.active {
+    outline: 2px solid yellow;
+     background: radial-gradient(rgb(243, 209, 176), rgba(147, 95, 66, 0.965));
+}
+
+#month {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(223, 230, 236);
+}
+.forw {
+    background-color: rgb(212, 227, 241);
+    height: 30px;
+    width: 55px;
+    text-align: center;
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.back {
+   background-color: rgb(212, 227, 241);
+    height: 30px;
+    width: 55px;
+    text-align: center;
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+table {
+    margin: auto;
+    width: 1000px;
+    background-color: rgb(235, 241, 246);
+    padding: 10px;
+}
+th {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.datum {
+    height: 30px;
+    background-color: rgb(212, 221, 228);
+}
+tr {
+    font-size: 12px;
+    height: 90px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+td {
+    width: 10px;
+    background-color: rgb(225, 232, 238);
+}
+
+
+#next {
+    background-color: rgb(218, 218, 218);
+    color: rgb(155, 154, 154);
+    border: 1px solid rgb(156, 155, 155);
+    font-size: 15px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+}
+#next.klickbar {
+    background-color: rgb(187, 213, 185);
+    color: black;
+    border: 1px solid black;
+}
+
+#back {
+    background-color: rgb(234, 243, 236);
+    color: black;
+    border: 1px solid rgb(29, 38, 28);
+    font-size: 15px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+footer {
+  background-color: rgb(201, 214, 198);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 13px;
+  align-items: center;
+  margin-top: 20px;
+}
+footer img {
+    width: 70px;
+}
+
+
+
+

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 160 160">
+  <!-- Generator: Adobe Illustrator 30.2.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 1)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #00416b;
+        opacity: .55;
+      }
+
+      .st1 {
+        fill: #d4d193;
+        opacity: .58;
+      }
+
+      .st2 {
+        fill: #bd8675;
+        opacity: .76;
+      }
+
+      .st3 {
+        fill: #385662;
+        opacity: .74;
+      }
+
+      .st4 {
+        fill: none;
+      }
+
+      .st4, .st5 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: .75px;
+      }
+
+      .st5 {
+        font-family: ApotekExtraCond-Bold, 'Apotek ExtraCond';
+        font-size: 196.84px;
+        font-weight: 700;
+      }
+
+      .st6 {
+        fill: #b98675;
+        opacity: .73;
+      }
+    </style>
+  </defs>
+  <path class="st2" d="M148.3,39.19c13.96,27.77,11.7,58.31,3.51,74.5-4.2,8.3-33.47,44.65-23.62,20.92C142.21,100.83,90.07,1.27,90.07,1.27c0,0,27.04,6.04,40.17,17.95"/>
+  <path class="st3" d="M4.74,102.59s19.41-11.04,25.72-8.46c8.54,3.49,19.02,30.91,15.87,37.95-4.8,10.76-23.51,2.91-29.75-5.41-4.42-5.9-11.84-24.08-11.84-24.08Z"/>
+  <path class="st0" d="M55.06,5.31"/>
+  <path class="st0" d="M10.15,43.64c12.16-19.31,24.94-48.63,122.58-17.57,39.87,12.68-90.81,11.55-127.99,30.75"/>
+  <path class="st6" d="M1.36,86.53c.08-4.51,22.9,39.68,21.48,21.23-13.61-176.92,39.3.51,24.97,34.66-6.31,15.05-29.7-9.86-37.36-26.9-6.7-14.92-9.23-21.33-9.1-29Z"/>
+  <path class="st1" d="M109.39,128.52c-13.54,8.89-51.11,4.22-63.55,14.53-27.86,23.09,28.3-59.82,14.28-72.03-40.58-35.33,158.38-28.37,71.44,25.69-8.31,5.17-14,26.43-22.17,31.81Z"/>
+  <text class="st5" transform="translate(36.07 150.33) scale(1.59 1)"><tspan x="0" y="0">f</tspan></text>
+  <circle class="st4" cx="80" cy="80" r="78.73"/>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 149 149">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0" y1="74.5" x2="149" y2="74.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f7eac7"/>
+      <stop offset=".97" stop-color="#f2db9c"/>
+      <stop offset="1" stop-color="#eac54d"/>
+    </linearGradient>
+  </defs>
+  <rect width="149" height="149" rx="6" ry="6" fill="url(#linear-gradient)"/>
+  <ellipse cx="82.16" cy="55.84" rx="63.17" ry="49.01" fill="#fff"/>
+  <polygon points="2.45 104.85 15.24 85.4 28.02 65.94 38.13 81.18 48.24 96.42 25.35 100.64 2.45 104.85" fill="#fff"/>
+  <text transform="translate(18.99 57.93) scale(1.67 1)" font-family="ApotekExtraCond-Bold, &apos;Apotek ExtraCond&apos;" font-size="51.31" font-weight="700"><tspan x="0" y="0">Chat</tspan></text>
+  <text transform="translate(28.93 99.69) scale(1.27 1)" font-family="ApotekExtraCond-Bold, &apos;Apotek ExtraCond&apos;" font-size="53.15" font-weight="700"><tspan x="0" y="0" letter-spacing="0em">T</tspan><tspan x="21.21" y="0">ime</tspan></text>
+</svg>

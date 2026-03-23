@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 160 160">
+  <!-- Generator: Adobe Illustrator 30.2.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 1)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: url(#linear-gradient);
+      }
+
+      .st1 {
+        font-size: 51.31px;
+      }
+
+      .st1, .st2 {
+        font-family: ApotekExtraCond-Bold, 'Apotek ExtraCond';
+        font-weight: 700;
+      }
+
+      .st2 {
+        font-size: 53.15px;
+      }
+
+      .st3 {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="7" y1="74.92" x2="156" y2="74.92" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f7eac7"/>
+      <stop offset=".97" stop-color="#f2db9c"/>
+      <stop offset="1" stop-color="#eac54d"/>
+    </linearGradient>
+  </defs>
+  <rect class="st0" x="7" y=".42" width="149" height="149" rx="6" ry="6"/>
+  <ellipse class="st3" cx="89.16" cy="56.26" rx="63.17" ry="49.01"/>
+  <polygon class="st3" points="9.45 105.27 22.24 85.82 35.02 66.36 45.13 81.6 55.24 96.84 32.35 101.05 9.45 105.27"/>
+  <text class="st1" transform="translate(25.99 58.35) scale(1.67 1)"><tspan x="0" y="0">Chat</tspan></text>
+  <text class="st2" transform="translate(35.93 100.11) scale(1.27 1)"><tspan x="0" y="0">Time</tspan></text>
+</svg>

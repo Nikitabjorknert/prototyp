@@ -1,0 +1,181 @@
+h1 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 500;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 2em;
+}
+h4 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.2em;
+  font-style: italic;
+}
+#avbryt {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+#avbryt a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    background-color: rgb(214, 204, 203);
+    padding: 10px;
+    border-radius: 3px;
+}
+i {
+    color: rgb(149, 11, 11);
+    margin: 20px;
+}
+header h1 {
+    background-color: rgb(228, 231, 227);
+    padding: 1em;
+}
+#Ellen {
+    border: 1px solid rgb(136, 136, 136);
+    margin: 20px;
+    border-radius: 5px;
+}
+#behandlingar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 5px;
+}
+#vera {
+    border: 1px solid rgb(136, 136, 136);
+    margin: 20px;
+    border-radius: 5px;
+}
+#sanna {
+    border: 1px solid rgb(136, 136, 136);
+    margin: 20px;
+    height: 720px;
+    border-radius: 5px;
+}
+#sextio {
+    display: flex;
+    flex-direction: row;
+ 
+}
+#fyrtio {
+    display: flex;
+    flex-direction: row;
+}
+#helkropp {
+  padding: 20px;
+  background-color: rgb(234, 241, 236);
+  align-items: center;
+  margin-bottom: 30px;
+}
+#helkropp ul li {
+  width: 100%;
+  list-style: none;
+}
+#helkropp img {
+  width: 200px;
+}
+
+label {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    margin: 3px;
+    display: inline-block;
+    width: 240px;
+}
+
+#nacke {
+  padding: 20px;
+  background-color: rgb(234, 241, 236);
+  align-items: center;
+  margin-bottom: 20px;
+}
+#nacke ul li {
+  width: 100%;
+  list-style: none;
+}
+#nacke img {
+  width: 200px;
+}
+
+#lash {
+    display: flex;
+    flex-direction: row;
+ 
+}
+#brow {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#mask {
+  padding: 20px;
+  background-color: rgb(242, 243, 232);
+  align-items: center;
+  margin-bottom: 30px;
+}
+#mask ul li {
+  width: 100%;
+  list-style: none;
+}
+#mask img {
+  width: 200px;
+}
+
+#skinbooster {
+  padding: 20px;
+  background-color: rgb(242, 243, 232);
+  align-items: center;
+   margin-bottom: 20px;
+}
+#skinbooster ul li {
+  width: 100%;
+  list-style: none;
+}
+#skinbooster img {
+  width: 200px;
+}
+
+#lashlift {
+  padding: 20px;
+  background-color: rgb(248, 239, 243);
+  align-items: center;
+}
+#lashlift ul li {
+  width: 100%;
+  list-style: none;
+}
+
+.j img {
+  width: 160px;
+  height: 160px;
+}
+.j div {
+    display: inline-block;
+    gap: 15px;
+}
+
+.nästa.active {
+    background-color: rgb(148, 205, 153);
+    padding: 10px;
+    margin: 20px 20px;
+    border: 1px solid rgb(69, 119, 75);
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(1, 2, 1);
+}
+.nästa {
+     background-color: rgb(207, 206, 206);
+    padding: 10px;
+    margin: 20px 20px;
+    border: 1px solid rgb(190, 191, 190);
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(132, 132, 132);
+    display: flex;
+    width: 200px;
+}
