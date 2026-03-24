@@ -32,7 +32,7 @@ h3 {
 #recensioner div {
     margin: 10px;
     font-size: 14px;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 10px;
 }
@@ -48,9 +48,16 @@ h3 {
 #box3 {
     border: 2px solid black;
     width: 30%;
-    padding: 5px;
+    padding: 15px;
     border-radius: 10px;
     background-color: rgb(176, 223, 252);
+}
+#box2 ul,
+#box3 ul {
+    padding: 5px;
+    margin: 10px;
+    line-height: 2em;
+    list-style: circle;
 }
 #medier {
     border-bottom: 1px solid black;
