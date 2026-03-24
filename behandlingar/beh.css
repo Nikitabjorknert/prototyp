@@ -121,21 +121,19 @@ h4 {
 }
 
 #lashlift img {
-  width: 150px;
-  height: 160px;
+  width: 180px;
 }
 
 #lashlift {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 2fr;
   padding: 20px;
   background-color: rgb(248, 239, 243);
   align-items: center;
    margin-bottom: 20px;
-   gap: 40px;
 }
 #lashlift ul li {
-  border: 1px solid black;
+   border: 1px solid black;
   width: 70%;
   padding: 15px;
   margin: 10px;
@@ -149,6 +147,23 @@ h4 {
     justify-content: flex-start;
 }
 
+#bokaBtn {
+    font-size: 25px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    width: 200px;
+    margin: auto;
+     background-color: rgb(225, 180, 148);
+    border: 1px solid rgb(136, 73, 22);
+    box-shadow: 2px 3px 3px rgb(149, 112, 87);
+}
+#bokaBtn a {
+     text-decoration: none;
+    color: black;
+    margin: auto;
+}
 
 
 
