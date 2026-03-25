@@ -49,8 +49,8 @@ body {
 }
 
 #pil a {
-    background-color: rgb(253, 215, 215);
-    padding: 10px;
+    background-color: rgba(170, 98, 56, 0.66);
+    padding: 5px;
     border-radius: 40px;
     border: 2px solid rgb(82, 82, 82);
     text-decoration: none;
@@ -58,6 +58,7 @@ body {
     position: fixed;
     bottom: 20px;
     right: 20px;
+   
 }
 
 img {

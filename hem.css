@@ -3,6 +3,7 @@
 }
 main {
    background-color: rgb(218, 227, 218);
+   border-top: 1px solid rgb(107, 107, 107);
 }
 
 header {
@@ -11,14 +12,12 @@ header {
 }
 header img {
     width: 100%;
-     border-bottom: 1px solid rgb(155, 174, 152);
 }
 
 h3 {
     text-align: center;
     font-size: 22px;
     font-weight: 500;
-    font-style: italic;
 }
 #erbjuder {
     margin: 20px;
@@ -116,6 +115,10 @@ form {
     margin-top: 10px;
     background-color: rgb(225, 180, 148);
     border: 1px solid rgb(136, 73, 22);
+}
+#sub:hover {
+    background-color: rgb(197, 134, 89);
+    box-shadow: 1px 2px 3px black;
 }
 #message {
     height: 150px;
