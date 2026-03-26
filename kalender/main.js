@@ -7,20 +7,32 @@ document.getElementById('drop').addEventListener('change', function () {
 const cells = document.querySelectorAll(".A");
 const next = document.getElementById("next");
 
-cells.forEach(cell => {
-  cell.addEventListener("click", () => {
+let activeCell = null;
 
+cells.forEach(cell => {
+  cell.addEventListener("click", (e) => {
+    e.preventDefault();
+
+    if (activeCell) {
+      activeCell.classList.remove("active");
+    }
     // ta bort tidigare markering
-    document.querySelectorAll(".A.active").forEach(c =>
-      c.classList.remove("active")
-    );
+    //document.querySelectorAll(".A.active").forEach(c =>
+      //c.classList.remove("active")
+   //);
 
     // markera den klickade
     cell.classList.add("active");
-
+  activeCell = cell;
     // aktivera knappen
-    next.disabled = false;
+      next.classList.remove('disabled-link');
     next.classList.add('klickbar');
 
   });
+});
+
+next.addEventListener("click", (e) => {
+  if (!activeCell) {
+    e.preventDefault();
+  }
 });

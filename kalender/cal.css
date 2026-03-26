@@ -110,6 +110,16 @@ tr {
     border-radius: 5px;
     text-decoration: none;
 }
+.disabled-link {
+    pointer-events: none;
+    opacity: 0.5;
+    cursor: default;
+}
+.klickbar {
+    pointer-events: auto;
+    opacity: 1;
+    cursor: pointer;
+}
 
 footer {
   background-color: rgb(201, 214, 198);
