@@ -12,6 +12,8 @@ showB.textContent = behandling;
 showD.textContent = datum;
 showT.textContent = tid;
 
+
+
 const sendBtn = document.getElementById('sendBtn');
 sendBtn.classList.add('inactive');
 
@@ -33,4 +35,9 @@ function required() {
 
 nameInput.addEventListener('input', required);
 emailInput.addEventListener('input', required);
+
+
+sendBtn.addEventListener('click', () => {
+     window.location.href = "../bekräftelse/index.html";
+});
 
