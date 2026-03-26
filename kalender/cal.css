@@ -1,7 +1,9 @@
 body {
    width: 100%;
    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 .A {
     background: radial-gradient(rgb(193, 245, 202), rgba(147, 176, 139, 0.965));
     border-radius: 15px;
@@ -20,14 +22,14 @@ body {
 #week {
     display: flex;
     flex-direction: row;
-    background-color: #e3bc95;
+    background: radial-gradient(rgb(241, 218, 205), rgb(210, 167, 136));
     justify-content: center;
     border-top: 1px solid rgb(150, 98, 57);
     border-bottom: 1px solid rgb(150, 98, 57);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .forw {
-    background-color: #eed4b9;
+    background-color: #f2e7db;
     height: 30px;
     width: 55px;
     text-align: center;
@@ -38,7 +40,7 @@ body {
     border-radius: 8px;
 }
 .back {
-    background-color: #eed4b9;
+    background-color: #f2e7db;
     height: 30px;
     width: 55px;
     text-align: center;
@@ -51,22 +53,23 @@ body {
 
 table {
     margin: auto;
-    width: 80%;
+    width: 70%;
     background-color: #f8e3c6;
     padding: 10px;
     border-left: 1px solid rgb(143, 96, 58);
     border-right: 1px solid rgb(143, 96, 58);
     border-bottom: 1px solid rgb(143, 96, 58);
+   
 }
 th {
-    font-size: 18px;
+    font-size: 19px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-bottom: 1px solid rgb(203, 162, 128);
 }
 
 tr {
-    font-size: 12px;
-    height: 90px;
+    font-size: 14px;
+    height: 75px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -85,7 +88,7 @@ tr {
     border: 1px solid rgb(156, 155, 155);
     font-size: 15px;
     padding: 15px;
-    width: 200px;
+    width: 240px;
     border-radius: 5px;
     text-align: center;
     text-decoration: none;
@@ -103,10 +106,10 @@ tr {
     background: radial-gradient(rgb(250, 243, 224), rgb(225, 199, 133));
     color: black;
     box-shadow: 1px 2px 3px rgb(158, 102, 63);
-    font-size: 16px;
+    font-size: 15px;
      border: 1px solid rgb(136, 73, 22);
     padding: 15px;
-    width: 200px;
+    width: 240px;
     border-radius: 5px;
     text-decoration: none;
 }
@@ -157,9 +160,28 @@ h1 {
     color: rgb(255, 255, 255);
     font-weight: 500;
     background-color: rgb(188, 85, 74);
-    padding: 10px;
+    padding: 8px;
     border-radius: 3px;
+    font-size: 14px;
 }
 
+#progressList {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
 
+.progress p {
+  background-color: rgba(94, 123, 91, 0.941);
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  border: 2px solid black;
+}
+.comming p {
+   width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  border: 2px solid black;
+}
 

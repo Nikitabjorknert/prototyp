@@ -1,3 +1,7 @@
+body {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 h1 {
   text-align: center;
   font-size: 3em;
@@ -15,6 +19,17 @@ h4 {
   font-size: 1.2em;
   font-style: italic;
 }
+h3 {
+  font-size: 1.3em;
+}
+h5 {
+  font-size: 1em;
+  font-style: italic;
+  margin-top: 0;
+}
+li {
+  line-height: 1.7em;
+}
 #avbryt {
     margin-top: 20px;
     margin-left: 15px;
@@ -24,8 +39,9 @@ h4 {
     color: rgb(255, 255, 255);
     font-weight: 500;
     background-color: rgb(188, 85, 74);
-    padding: 10px;
+        padding: 8px;
     border-radius: 3px;
+    font-size: 14px;
 }
 i {
     color: rgb(149, 11, 11);
@@ -53,8 +69,8 @@ header h1 {
 #sanna {
     border: 1px solid rgb(136, 136, 136);
     margin: 20px;
-    height: 720px;
     border-radius: 5px;
+    height: 800px;
 }
 #sextio {
     display: flex;
@@ -84,7 +100,7 @@ label {
     padding: 15px;
     margin: 3px;
     display: inline-block;
-    width: 240px;
+    width: 260px;
 }
 
 #nacke {
@@ -149,14 +165,16 @@ label {
   width: 100%;
   list-style: none;
 }
+.j {
+  display: flex;
+  font-size: 14px;
+  gap: 23px;
+  font-style: italic;
+}
 
 .j img {
   width: 160px;
   height: 160px;
-}
-.j div {
-    display: inline-block;
-    gap: 15px;
 }
 
 #submitBtn.active {
@@ -196,4 +214,24 @@ label {
 }
 input[type="radio"]:checked {
     accent-color: black;
+}
+
+#progressList {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.progress p {
+  background-color: rgba(94, 123, 91, 0.941);
+  width: 35px;
+  height: 35px;
+  border-radius: 40px;
+  border: 2px solid black;
+}
+.comming p {
+   width: 35px;
+  height: 35px;
+  border-radius: 40px;
+  border: 2px solid black;
 }

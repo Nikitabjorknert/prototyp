@@ -15,9 +15,8 @@ h1 {
 main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 0.5fr;
     grid-template-areas: 
-    "summary fieldset"
     "summary fieldset"
     "tillbaka fieldset";
     width: 1000px;
@@ -30,17 +29,29 @@ main {
     width: 400px;
     margin-bottom: 6em;
     padding: 1.3em;
-    border: 1px solid rgb(116, 116, 116);
+    border: 1px solid rgb(153, 153, 153);
+    box-shadow: 1px 2px 1px rgb(148, 148, 148);
 }
 #summary p {
-    font-size: 20px;
+    font-size: 18px;
 }
-
+#summary h2 {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 2em;
+   border-radius: 5px;
+   font-size: 25px;
+   font-weight: 100;
+}
 fieldset {
     display: flex;
     flex-direction: column;
      width: 350px;
      grid-area: fieldset;
+     background-color: rgb(245, 232, 217);
+     
 }
 
 input {
@@ -65,8 +76,9 @@ legend {
     color: rgb(255, 255, 255);
     font-weight: 500;
     background-color: rgb(188, 85, 74);
-    padding: 10px;
+        padding: 8px;
     border-radius: 3px;
+    font-size: 14px;
 }
 
 #sendBtn {
@@ -85,19 +97,25 @@ legend {
      color: gray;
 }
 .active {
-     background: radial-gradient(rgb(243, 221, 198), rgb(229, 171, 126));
-     box-shadow: 1px 2px 3px 2px rgb(176, 128, 92);
+     background: radial-gradient(rgb(221, 246, 219), rgb(134, 168, 132));
+     box-shadow: 1px 2px 3px 2px rgb(67, 86, 67);
     font-size: 16px;
     font-weight: bold;
-     border: 1px solid rgb(136, 73, 22);
+     border: 1px solid rgb(73, 98, 70);
+     cursor: pointer;
 }
-
+.active:hover {
+    background-color: aqua;
+}
+p b {
+    font-weight: 600;
+}
 #tillbaka {
-    background: radial-gradient(rgb(250, 243, 224), rgb(225, 199, 133));
+    background: radial-gradient(rgb(253, 252, 247), rgb(238, 217, 164));
     color: black;
-    box-shadow: 1px 2px 3px rgb(158, 102, 63);
+    box-shadow: 1px 2px 3px rgb(194, 171, 154);
     font-size: 16px;
-     border: 1px solid rgb(136, 73, 22);
+     border: 1px solid rgb(201, 152, 112);
     padding: 15px;
     width: 200px;
     height: 20px;
@@ -106,7 +124,25 @@ legend {
     grid-area: tillbaka;
 }
 
+#progressList {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
 
+.progress p {
+  background-color: rgba(94, 123, 91, 0.941);
+  width: 35px;
+  height: 35px;
+  border-radius: 40px;
+  border: 2px solid black;
+}
+.comming p {
+   width: 35px;
+  height: 35px;
+  border-radius: 40px;
+  border: 2px solid black;
+}
 
 footer {
     background-color: rgb(201, 214, 198);
