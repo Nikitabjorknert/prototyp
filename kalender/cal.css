@@ -5,20 +5,29 @@ body {
 .A {
     background: radial-gradient(rgb(193, 245, 202), rgba(147, 176, 139, 0.965));
     border-radius: 15px;
-    cursor: pointer;
+    width: 10%;
 }
 .A.active {
-    outline: 2px solid yellow;
+    outline: 2px solid rgb(1, 1, 1);
      background: radial-gradient(rgb(243, 209, 176), rgba(147, 95, 66, 0.965));
+     font-weight: 600;
+}
+.notA {
+    width: 10%;
+    background-color: #fff0df;
 }
 
-#month {
+#week {
     display: flex;
+    flex-direction: row;
+    background-color: #e3bc95;
     justify-content: center;
-    background-color: rgb(223, 230, 236);
+    border-top: 1px solid rgb(150, 98, 57);
+    border-bottom: 1px solid rgb(150, 98, 57);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .forw {
-    background-color: rgb(212, 227, 241);
+    background-color: #eed4b9;
     height: 30px;
     width: 55px;
     text-align: center;
@@ -26,9 +35,10 @@ body {
     text-decoration: none;
     color: black;
     font-size: 25px;
+    border-radius: 8px;
 }
 .back {
-   background-color: rgb(212, 227, 241);
+    background-color: #eed4b9;
     height: 30px;
     width: 55px;
     text-align: center;
@@ -36,57 +46,69 @@ body {
     text-decoration: none;
     color: black;
     font-size: 25px;
+    border-radius: 8px;
 }
 
 table {
     margin: auto;
-    width: 1000px;
-    background-color: rgb(235, 241, 246);
+    width: 80%;
+    background-color: #f8e3c6;
     padding: 10px;
+    border-left: 1px solid rgb(143, 96, 58);
+    border-right: 1px solid rgb(143, 96, 58);
+    border-bottom: 1px solid rgb(143, 96, 58);
 }
 th {
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid rgb(203, 162, 128);
 }
-.datum {
-    height: 30px;
-    background-color: rgb(212, 221, 228);
-}
+
 tr {
     font-size: 12px;
     height: 90px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-td {
-    width: 10px;
-    background-color: rgb(225, 232, 238);
+
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
 }
 
-
 #next {
-    background-color: rgb(218, 218, 218);
+    background-color: rgb(212, 212, 212);
     color: rgb(155, 154, 154);
     border: 1px solid rgb(156, 155, 155);
     font-size: 15px;
-    height: 40px;
-    width: 100px;
+    padding: 15px;
+    width: 200px;
     border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
 }
 #next.klickbar {
-    background-color: rgb(187, 213, 185);
+    background: radial-gradient(rgb(241, 218, 205), rgb(210, 167, 136));
     color: black;
-    border: 1px solid black;
+    box-shadow: 1px 2px 3px rgb(63, 41, 25);
+    font-weight: bold;
+    font-size: 18px;
+     border: 1px solid rgb(136, 73, 22);
 }
 
-#back {
-    background-color: rgb(234, 243, 236);
+#tillbaka {
+    background: radial-gradient(rgb(250, 243, 224), rgb(225, 199, 133));
     color: black;
-    border: 1px solid rgb(29, 38, 28);
-    font-size: 15px;
-    height: 40px;
-    width: 100px;
+    box-shadow: 1px 2px 3px rgb(158, 102, 63);
+    font-size: 16px;
+     border: 1px solid rgb(136, 73, 22);
+    padding: 15px;
+    width: 200px;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 footer {
@@ -102,6 +124,32 @@ footer img {
     width: 70px;
 }
 
+#drop {
+    background-color: rgb(211, 234, 211);
+    padding: 8px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#avbryt {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+#avbryt a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    background-color: rgb(188, 85, 74);
+    padding: 10px;
+    border-radius: 3px;
+}
 
 
 

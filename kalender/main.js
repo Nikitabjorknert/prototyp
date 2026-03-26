@@ -21,5 +21,6 @@ cells.forEach(cell => {
     // aktivera knappen
     next.disabled = false;
     next.classList.add('klickbar');
+
   });
 });

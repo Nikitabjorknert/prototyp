@@ -5,125 +5,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vecka 14</title>
-    <script type="module" src="./cal.js"></script>
-    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="./main.js"></script>
+    <link rel="stylesheet" href="./cal.css">
 </head>
 
 <body>
-    <header>
-        <a href="../index.html">Avbryt bokning</a>
-        <h1>Boka din tid hos Veras Massage</h1>
-        <a href="./tjänster.html">🔙 Tillbaka</a>
+     <header>
+        <nav id="avbryt">
+        <a href="../index.html">⨂ Avbryt bokning</a>
+        </nav>
+
+        <h1>2. Välj tid</h1>
+       
     </header>
-    <main>
-       <section id="month">
-            <form id="dropdown" action="/redirect">
+
+     <form id="dropdown" action="/redirect">
                 <select id="drop" name="target">
                     <option value="">Navigera till önskad månad</option>
                     <option value="./index.html">Mars</option>
                     <option value="./14.html">April</option>
-                    <option value="./18.html">Maj</option>
+                    <option value="./19.html">Maj</option>
                     <option value="./23.html">Juni</option>
                 </select>
                 <noscript><button>Go</button></noscript>
             </form>
+
+    <main>
+       <div id="week">
         <a class="back" href="./index.html">&larr;</a>
         <h2 id="weekName">Vecka 14</h2>
         <a class="forw" href="./15.html">&rarr;</a>
-    </section>
+       </div>
 
         <table>
-            <tr class="datum">
+            <tr>
                 <th>30/3</th>
-                <th></th>
                 <th>31/3</th>
-                <th></th>
                 <th>1/4</th>
-                <th></th>
                 <th>2/4</th>
-                <th></th>
                 <th>3/4</th>
-                <th></th>
                 <th>4/4</th>
-                <th></th>
                 <th>5/4</th>
             </tr>
             <tr>
-                <td class="notA">09.00-10.30</td>
-                <td></td>
+                <td class="notA"></td>
                 <td class="A">09.00-10.30</td>
-                <td></td>
                 <td class="A">09.00-10.30</td>
-                <td></td>
                 <td class="A">09.00-10.30</td>
-                <td></td>
-                <td class="notA">09.00-10.30</td>
-                <td></td>
-                <td class="notA">09.00-10.30</td>
-                <td></td>
+                <td class="notA"></td>
+                <td class="notA"></td>
                 <td class="A">09.00-10.30</td>
             </tr>
             <tr>
                 <td class="A">10.30-12.00</td>
-                <td></td>
-                <td class="notA">10.30-12.00</td>
-                <td></td>
-                <td class="notA">10.30-12.00</td>
-                <td></td>
+                <td class="notA"></td>
+                <td class="notA"></td>
                 <td class="A">10.30-12.00</td>
-                <td></td>
                 <td class="A">10.30-12.00</td>
-                <td></td>
-                <td class="notA">10.30-12.00</td>
-                <td></td>
-                <td class="notA">10.30-12.00</td>
+                <td class="notA"></td>
+                <td class="notA"></td>
             </tr>
             <tr>
-                <td class="notA">13.00-14.30</td>
-                <td></td>
+                <td class="notA"></td>
                 <td class="A">13.00-14.30</td>
-                <td></td>
                 <td class="A">13.00-14.30</td>
-                <td></td>
                 <td class="A">13.00-14.30</td>
-                <td></td>
                 <td class="A">13.00-14.30</td>
-                <td></td>
                 <td class="A">13.00-14.30</td>
-                <td></td>
-                <td class="notA">13.00-14.30</td>
+                <td class="notA"></td>
             </tr>
             <tr>
                 <td class="A">14.30-17.00</td>
-                <td></td>
                 <td class="A">14.30-17.00</td>
-                <td></td>
-                <td class="notA">14.30-17.00</td>
-                <td></td>
+                <td class="notA"></td>
                 <td class="A">14.30-17.00</td>
-                <td></td>
                 <td class="A">14.30-17.00</td>
-                <td></td>
                 <td class="A">14.30-17.00</td>
-                <td></td>
                 <td class="A">14.30-17.00</td>
             </tr>
         </table>
 
+         <div id="buttons">
+     <a id="tillbaka" href="../väljTjänst/index.html">&larr; Tillbaka till föregående sida</a>
+     <a id="next" href="./formulär/index.html">Nästa &rarr;</a>
+    </div>
 
     </main>
 
     <footer>
         <div>
-            <p>Copyright © 2024 Veras Massage</p>
+            <p>Copyright © 2024 Trillingarnas hälsa</p>
         </div>
-        <div>
-            <p>Logo</p>
-        </div>
-        <div>
-            <p>Telefonnummer: 070-123 45 67</p>
-            <p>Epost: info@verasmassage.se</p>
-        </div>
+         <div id="logo">
+        <img src="../img/logotyp.svg" alt="Logotyp" width="80">
+    </div>
+    <div id="kontakt">
+        <p>Telefonnummer: 070-123 45 67</p>
+        <p>Epost: info@trillingarnashalsa.se</p>
+    </div>
     </footer>
 </body>
 

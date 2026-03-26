@@ -21,9 +21,9 @@ h4 {
 }
 #avbryt a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: 500;
-    background-color: rgb(214, 204, 203);
+    background-color: rgb(188, 85, 74);
     padding: 10px;
     border-radius: 3px;
 }
@@ -160,14 +160,19 @@ label {
 }
 
 #submitBtn.active {
-    background-color: rgb(148, 205, 153);
+    background-color: rgb(225, 180, 148);
+    border: 1px solid rgb(136, 73, 22);
     padding: 10px;
     margin: 20px 20px;
-    border: 1px solid rgb(69, 119, 75);
     border-radius: 5px;
     text-decoration: none;
     color: rgb(1, 2, 1);
+    box-shadow: 1px 2px 3px rgb(63, 41, 25);
+    font-weight: bold;
+    font-size: 20px;
+    background: radial-gradient(rgb(241, 218, 205), rgb(210, 167, 136));
 }
+
 #submitBtn {
      background-color: rgb(207, 206, 206);
     padding: 10px;
@@ -177,9 +182,18 @@ label {
     text-decoration: none;
     color: rgb(132, 132, 132);
     display: flex;
-    width: 200px;
+    width: 160px;
+    justify-content: center;
 }
-
+#submitBtn.active:hover {
+  background: radial-gradient(rgb(218, 181, 159), rgb(170, 114, 74));
+    box-shadow: 1px 2px 3px black;
+}
+#subBtn {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
 input[type="radio"]:checked {
     accent-color: black;
 }

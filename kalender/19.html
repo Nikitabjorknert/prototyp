@@ -1,38 +1,41 @@
 <!DOCTYPE html>
-   <html lang="sv">
-   <head>
+<html lang="sv">
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vecka 19</title>
+    <script type="module" src="./main.js"></script>
     <link rel="stylesheet" href="./cal.css">
-     <script type="module" src="./main.js"></script>
-   </head>
+</head>
 
+<body>
+     <header>
+        <nav id="avbryt">
+        <a href="../index.html">⨂ Avbryt bokning</a>
+        </nav>
 
-   <body>
-  
-   <header>
-        <a href="../index.html">Avbryt bokning</a>
-        <h1>Boka din tid hos Veras Massage</h1>
-        <a href="./tjänster.html">🔙 Tillbaka</a>
+        <h1>2. Välj tid</h1>
+       
     </header>
-<main>
-        <section id="month">
-            <form id="dropdown" action="/redirect">
-           
+
+     <form id="dropdown" action="/redirect">
                 <select id="drop" name="target">
-               <option value="">Navigera till önskad månad</option>
+                    <option value="">Navigera till önskad månad</option>
                     <option value="./index.html">Mars</option>
                     <option value="./14.html">April</option>
-                    <option value="./18.html">Maj</option>
+                    <option value="./19.html">Maj</option>
                     <option value="./23.html">Juni</option>
                 </select>
                 <noscript><button>Go</button></noscript>
             </form>
-        <a class="back" href="./18.html">&larr;</a>
+
+    <main>
+       <div id="week">
+        <a class="back" href="./index.html">&larr;</a>
         <h2 id="weekName">Vecka 19</h2>
-        <a class="forw" href="./20.html">&rarr;</a>
-    </section>
+        <a class="forw" href="./15.html">&rarr;</a>
+       </div>
 
     <table>
           <tr>
@@ -81,19 +84,26 @@
             <td class="A">14.30-17.00</td>
         </tr>
     </table>
+
+    <div id="buttons">
+     <a id="tillbaka" href="../väljTjänst/index.html">&larr; Tillbaka till föregående sida</a>
+     <a id="next" href="./formulär/index.html">Nästa &rarr;</a>
+    </div>
+
 </main>
 
     <footer>
-    <div>
-        <p>Copyright © 2024 Veras Massage</p>
+        <div>
+            <p>Copyright © 2024 Trillingarnas hälsa</p>
+        </div>
+         <div id="logo">
+        <img src="../img/logotyp.svg" alt="Logotyp" width="80">
     </div>
-    <div>
-        <p>Logo</p>
-    </div>
-    <div>
+    <div id="kontakt">
         <p>Telefonnummer: 070-123 45 67</p>
-        <p>Epost: info@verasmassage.se</p>
+        <p>Epost: info@trillingarnashalsa.se</p>
     </div>
-</footer>
- </body>
-   </html>
+    </footer>
+</body>
+
+</html>
