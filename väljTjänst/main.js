@@ -1,37 +1,45 @@
 const radios = document.querySelectorAll('input[name="radio"]');
 const button = document.querySelector('#submitBtn');
 
-let selected = null;
-
-function activateBtn() {
-     button.disabled = selected === null;
+//let selected = null;
+function getChecked(radios) {
+    const checked = [...radios].find(radio => radio.checked);
+    return checked ? checked.value : null;
 }
 
-function radioUse() {
-radios.forEach(radio => {
-    radio.addEventListener('click', function(e) {
 
-        if (selected === this) {
-            e.preventDefault();
-            this.checked = false;
-            selected = null;
-        } else {
-            selected = this;
-            this.checked = true;
-        }
+function activateBtn() {
+    const selectedTreatment = getChecked(radios);
 
-       activateBtn();
+    button.disabled = !selectedTreatment;
 
-       if (selected) {
-        console.log(selected.value);
+       if (selectedTreatment) {
+        console.log(selectedTreatment);
         button.classList.add('active');
         } else {
         button.classList.remove('active');
         }
-    });
+     }
+
+
+radios.forEach(radio => {
+    radio.addEventListener('change', activateBtn);
 });
-}
-radioUse();
+
+button.addEventListener('click', (e) => {
+    e.preventDefault();
+
+     const selectedTreatment = getChecked(radios);
+
+     if (!selectedTreatment) {
+        return;
+     }
+
+     sessionStorage.setItem('behandling', selectedTreatment);
+
+     window.location.href = '../kalender/index.html';
+});
+  
 activateBtn();
 
 

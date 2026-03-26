@@ -16,13 +16,12 @@
         <h1>3. Slutför bokning</h1>
     </header>
 <main>
-    <form>
-        <fieldset>
-            <h2>Behandling</h2>
-            <p><b>Personal:</b>Ellen</p>
-            <p><b>Datum:</b>20</p>
-            <p><b>Tid:</b>13.00</p>
-        </fieldset>
+    <section>
+            <h2>Översikt</h2>
+            <p><b>Behandling:</b> <span id="showB"></span></p>
+            <p><b>Datum:</b> <span id="showD"></span></p>
+            <p><b>Tid:</b> <span id="showT"></span></p>
+        </section>
 
         <fieldset>
             <legend>Fyll i uppgifter</legend>
@@ -38,8 +37,8 @@
     </form>
 
          <div id="buttons">
-     <a id="tillbaka" href="../väljTjänst/index.html">&larr; Tillbaka till föregående sida</a>
-     <a id="next" href="./formulär/index.html">Nästa &rarr;</a>
+     <a id="tillbaka" href="../kalender/index.html">&larr; Tillbaka till föregående sida</a>
+     <button id="sendBtn" type="button">Boka</button>
     </div>
 </main>
 
@@ -55,6 +54,6 @@
         <p>Epost: info@trillingarnashalsa.se</p>
     </div>
     </footer>
-    
+
 </body>
 </html>
