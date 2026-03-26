@@ -16,7 +16,7 @@
         <h1>3. Slutför bokning</h1>
     </header>
 <main>
-    <section>
+    <section id="summary">
             <h2>Översikt</h2>
             <p><b>Behandling:</b> <span id="showB"></span></p>
             <p><b>Datum:</b> <span id="showD"></span></p>
@@ -25,20 +25,22 @@
 
         <fieldset>
             <legend>Fyll i uppgifter</legend>
-            <label for="name">Namn:</label>
+            <label for="name">*Namn:</label>
             <input type="text" id="name" placeholder="T.ex. Anna Olsson" required>
-            <label for="email">E-post:</label>
-            <input type="email" name="email" placeholder="T.ex. annaolsson@epost.com" required>
+            <label for="email">*E-post:</label>
+            <input type="email" id="email" placeholder="T.ex. annaolsson@epost.com" required>
             <label for="phone">Telefon:</label>
             <input type="tel" name="phone" id="phone" placeholder="T.ex: +46712345678">
             <label for="message">Meddelande:</label>
-            <textarea name="message" id="message" placeholder="...">Meddelande:</textarea>
+            <textarea name="message" id="message"></textarea>
+
+             <button id="sendBtn" type="button" class="inactive" disabled>Boka</button>
         </fieldset>
-    </form>
+   
 
          <div id="buttons">
      <a id="tillbaka" href="../kalender/index.html">&larr; Tillbaka till föregående sida</a>
-     <button id="sendBtn" type="button">Boka</button>
+    
     </div>
 </main>
 

@@ -1,0 +1,123 @@
+body {
+    width: 100%;
+    margin: 0;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 3em;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "summary fieldset"
+    "summary fieldset"
+    "tillbaka fieldset";
+    width: 1000px;
+    margin: auto;
+}
+
+#summary {
+    grid-area: summary;
+    background-color: rgb(225, 236, 225);
+    width: 400px;
+    margin-bottom: 6em;
+    padding: 1.3em;
+    border: 1px solid rgb(116, 116, 116);
+}
+#summary p {
+    font-size: 20px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+     width: 350px;
+     grid-area: fieldset;
+}
+
+input {
+    margin-bottom: 15px;
+}
+#message {
+    height: 150px;
+}
+textarea {
+    margin-bottom: 30px;
+}
+legend {
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+#avbryt {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+#avbryt a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    background-color: rgb(188, 85, 74);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#sendBtn {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 7px; 
+}
+.inactive {
+    background-color: rgb(225, 225, 225);
+    cursor: not-allowed;
+    opacity: 0.5;
+     border: 1px solid gray;
+     color: gray;
+}
+.active {
+     background: radial-gradient(rgb(243, 221, 198), rgb(229, 171, 126));
+     box-shadow: 1px 2px 3px 2px rgb(176, 128, 92);
+    font-size: 16px;
+    font-weight: bold;
+     border: 1px solid rgb(136, 73, 22);
+}
+
+#tillbaka {
+    background: radial-gradient(rgb(250, 243, 224), rgb(225, 199, 133));
+    color: black;
+    box-shadow: 1px 2px 3px rgb(158, 102, 63);
+    font-size: 16px;
+     border: 1px solid rgb(136, 73, 22);
+    padding: 15px;
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    grid-area: tillbaka;
+}
+
+
+
+footer {
+    background-color: rgb(201, 214, 198);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 13px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+footer img {
+    width: 70px;
+}
