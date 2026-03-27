@@ -14,6 +14,7 @@
     font-size: 2.5em;
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: 360px;
     padding: 0;
     color: rgb(0, 0, 0);
     width: 30px;
@@ -36,11 +37,11 @@
 #icon {
     width: 23px;
     border-radius: 60px;
-    background: #77bb41;
+    background: #77bb41; 
     color: #000000;
     font-size: 30px;
     display: flex;
-    padding: 10px 19px;
+    padding: 10px 17px;
      margin: auto;
 }
 
@@ -58,6 +59,8 @@
     margin-bottom: 1.5em;
     font-size: 15px;
 }
+
+
 .kontakt {
     font-size: 14px;
     line-height: 8px;
