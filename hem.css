@@ -9,9 +9,10 @@ main {
 header {
     align-items: center;
     border-top: 1px solid rgb(155, 174, 152);
+    display: flex;
 }
 header img {
-    width: 100%;
+    width: 600px;
 }
 
 h3 {

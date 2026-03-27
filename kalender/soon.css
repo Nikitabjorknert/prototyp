@@ -1,0 +1,24 @@
+#soon {
+    background-color: rgba(128, 128, 128, 0.321);
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 485px;
+    color: rgb(0, 0, 0);
+}
+#soon h2 {
+    margin-top: 20%;
+}
+#tabel {
+    position: relative;
+    background-color: rgb(179, 179, 179);
+    opacity: 0.2;
+}
+th {
+    color: rgba(255, 255, 255, 0.27);
+    border-bottom: 1px solid rgba(235, 235, 235, 0.486);
+     opacity: 0.2;
+}

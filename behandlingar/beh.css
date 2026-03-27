@@ -16,7 +16,6 @@ header h1 {
     text-align: center;
     font-size: 4em;
     font-weight: 500;
-    background-image: url(../img/bakgrund.jpg);
     height: 300px;
     display: flex;
     align-items: center;
@@ -179,7 +178,6 @@ header h1 {
     margin: auto;
     background-color: rgb(225, 180, 148);
     border: 1px solid rgb(136, 73, 22);
-    box-shadow: 2px 3px 3px rgb(149, 112, 87);
 }
 
 #bokaBtn a {

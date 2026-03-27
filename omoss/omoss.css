@@ -1,42 +1,10 @@
 
 header img {
     width: 40%;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 3px 3px 4px rgb(98, 98, 98);
 }
-#personal {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: rgb(221, 231, 223);
-    padding: 10px;
-}
-#personal img {
-    width: 250px;
-}
-#ellen {
-    background-color: rgb(255, 255, 255);
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-    border: 1px solid rgb(130, 145, 137);
-    border-radius: 10px;
-}
-#vera {
-      background-color: rgb(255, 255, 255);
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-    border: 1px solid rgb(130, 145, 137);
-    border-radius: 10px;
-}
-#sanna {
-     background-color: rgb(255, 255, 255);
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-    border: 1px solid rgb(130, 145, 137);
-    border-radius: 10px;
-}
+
 header h1 {
     padding: 20px;
     font-size: 3em;
@@ -60,12 +28,55 @@ h2 {
     margin: 10px;
     text-align: center;
 }
-#beskrivning {
-    text-align: center;
-    
+.beskrivning {
+    width: 60%;
+    margin: auto;
+    line-height: 22px;
+    margin-top: 25px;
 }
 main {
      background-color: rgb(221, 231, 223);
      padding: 15px;
-     border-top: 1px solid black;
+      border-bottom: 1px solid rgb(98, 120, 96);
+     border-top: 1px solid rgb(98, 120, 96);
+}
+#citat {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2em;
+}
+#facts {
+    background-color: rgba(192, 122, 81, 0.551);
+    width: 25%;
+    padding: 20px;
+    list-style: none;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 2px solid rgb(156, 91, 38);
+    font-size: 16px;
+}
+#contact {
+    background-color: rgba(192, 122, 81, 0.551);
+    width: 25%;
+    padding: 20px;
+    list-style: none;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 2px solid rgb(156, 91, 38);
+    font-size: 16px;
+}
+#info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+#cont {
+    text-align: center;
+    font-size: 19px;
+    width: 30%;
+    padding: 4px;
+    margin: auto;
+    margin-bottom: 7px;
+    border-radius: 2px;
 }
