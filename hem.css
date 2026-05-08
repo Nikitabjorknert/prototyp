@@ -10,11 +10,18 @@ header {
     align-items: center;
     border-top: 1px solid rgb(155, 174, 152);
     display: flex;
+    justify-content: center;
+    gap: 5em;
 }
 header img {
-    width: 600px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 10px;
 }
-
+header h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
 h3 {
     text-align: center;
     font-size: 22px;

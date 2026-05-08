@@ -100,7 +100,7 @@ label {
     padding: 15px;
     margin: 3px;
     display: inline-block;
-    width: 260px;
+    width: 300px;
 }
 
 #nacke {
@@ -118,7 +118,7 @@ label {
 }
 
 #lash {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
  
 }
