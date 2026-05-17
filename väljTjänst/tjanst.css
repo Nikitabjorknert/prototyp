@@ -203,7 +203,7 @@ label {
     justify-content: center;
 }
 #submitBtn.active:hover {
-    background-color: rgb(218, 181, 159);
+    background-color: rgb(214, 204, 191);
     box-shadow: 1px 2px 3px black;
 }
 #subBtn {

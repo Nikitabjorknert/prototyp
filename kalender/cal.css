@@ -100,6 +100,9 @@ tr {
     font-size: 18px;
      border: 1px solid rgb(136, 73, 22);
 }
+#next.klickbar:hover {
+    background-color: rgb(214, 204, 191);
+}
 
 #tillbaka {
     background: radial-gradient(rgb(250, 243, 224), rgb(225, 199, 133));
