@@ -185,7 +185,6 @@ label {
     border-radius: 5px;
     text-decoration: none;
     color: rgb(1, 2, 1);
-    box-shadow: 1px 2px 3px rgb(63, 41, 25);
     font-weight: bold;
     font-size: 20px;
 }
@@ -203,8 +202,7 @@ label {
     justify-content: center;
 }
 #submitBtn.active:hover {
-    background-color: rgb(215, 182, 140);
-    box-shadow: 1px 2px 3px black;
+    background-color: rgb(245, 227, 203);
 }
 #subBtn {
   display: flex;
