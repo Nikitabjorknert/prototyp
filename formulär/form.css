@@ -104,7 +104,7 @@ legend {
      cursor: pointer;
 }
 .active:hover {
-    background-color: aqua;
+    background-color: rgb(179, 216, 216);
 }
 p b {
     font-weight: 600;
