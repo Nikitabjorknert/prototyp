@@ -97,8 +97,7 @@ legend {
      color: gray;
 }
 .active {
-     background: radial-gradient(rgb(221, 246, 219), rgb(134, 168, 132));
-     box-shadow: 1px 2px 3px 2px rgb(67, 86, 67);
+     background-color: rgb(134, 168, 132);
     font-size: 16px;
     font-weight: bold;
      border: 1px solid rgb(73, 98, 70);

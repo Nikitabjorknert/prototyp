@@ -5,13 +5,13 @@ body {
 }
 
 .A {
-    background: radial-gradient(rgb(193, 245, 202), rgba(147, 176, 139, 0.965));
+    background-color: rgba(172, 200, 164, 0.965);
     border-radius: 15px;
     width: 10%;
 }
 .A.active {
-    outline: 2px solid rgb(1, 1, 1);
-     background: radial-gradient(rgb(243, 209, 176), rgba(147, 95, 66, 0.965));
+    outline: 1px solid rgb(1, 1, 1);
+     background-color: rgba(176, 119, 89, 0.965);
      font-weight: 600;
 }
 .notA {
@@ -94,7 +94,7 @@ tr {
     text-decoration: none;
 }
 #next.klickbar {
-    background: radial-gradient(rgb(241, 218, 205), rgb(210, 167, 136));
+    background-color: rgb(210, 167, 136);
     color: black;
     font-weight: bold;
     font-size: 18px;
